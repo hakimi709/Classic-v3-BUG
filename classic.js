@@ -146,7 +146,6 @@ let tebaklirik = db.data.game.lirik = []
 let tebaktebakan = db.data.game.tebakan = []
 
 const yts = require('./scrape/yt-search')
-const { ytSearch } = require('./scrape/yt')
 const thumbnail = fs.readFileSync ('./kawai/imvillain.jpg')
 const cewegw = fs.readFileSync(`./kawai/cewegw.jpg`)
 const egirl = fs.readFileSync(`./kawai/egirl.jpg`)
